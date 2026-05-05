@@ -1,0 +1,4 @@
+{
+  "name": "Accessible Instruction Checker",
+  "description": "Analyzes instructional text to identify ableist language and accessibility barriers, providing inclusive rewrites and guiding prompts based on ADA Title II, UDL, and WCAG 2.2 AA."
+}
