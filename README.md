@@ -1,10 +1,28 @@
-# Vertex AI Studio Frontend App with Node.js Backend
+# Accessibility Instruction Checker
 
-This repository contains a frontend and a Node.js backend, designed to run together.
-The backend acts as a proxy, handling Google Cloud API calls.
+An AI‑powered tool that analyzes instructional materials for ableist language, accessibility barriers, and non‑inclusive phrasing, then provides rewrites grounded in ADA Title II (2026), UDL Guidelines, and WCAG 2.2 AA.
 
-This project is intended for demonstration and prototyping purposes only.
-It is not intended for use in a production environment.
+# Purpose
+
+The Accessible Instruction Checker helps Educators and Instructional designers identify language that may unintentionally hurt, exclude or marginalize learners with disabilities. It applies the social model of disability, focusing on barriers in the environment and materials.
+
+This project was created as part of a University course and serves academic and prototyping purposes.
+
+# Key Features
+
+Detects ableist language, deficit framing, and exclusionary wording
+Flags ableist lanaguge, accessibility barriers in instructions, assignments, and course materials providing explanations and violations.
+Provides inclusive rewrites aligned with: ADA Title II (2026 updates), Universal Design for Learning (UDL) Guidelines, and WCAG 2.2 AA
+Offers improved alternatives that promote access, autonomy, and equity
+Simple frontend UI + Node.js backend proxy for secure API calls
+
+# How It Works
+
+User enters instructional text into the frontend
+The backend sends the text to Vertex AI with a structured accessibility‑focused prompt
+The model analyzes:Ableist language patterns, barriers, compliance with ADA/UDL/WCAG
+The model returns: Flags, Explanations, Suggested rewrites
+The frontend displays the results
 
 ## Prerequisites
 
