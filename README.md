@@ -24,6 +24,30 @@ The model analyzes:Ableist language patterns, barriers, compliance with ADA/UDL/
 The model returns: Flags, Explanations, Suggested rewrites
 The frontend displays the results
 
+# Accessibility frameworks used
+
+ADA Title II (2026) — nondiscrimination in public education
+
+UDL Guidelines — multiple means of engagement, representation, and expression
+
+WCAG 2.2 AA — perceivable, operable, understandable, robust content
+
+# Evaluation Results
+The Accessible Instruction Checker was evaluated using a set of personally written instructional examples containing both explicit and subtle ableist phrasing.  
+The model correctly flagged the majority of aleist phrases, performing at approximately **70% accuracy** on the test samples.  
+
+However, it **missed some subtle and context‑dependent phrases**, especially those that rely on tone, implication, or indirect framing.  
+These results reinforce that **AI cannot be relied on as the sole evaluator** of accessibility or ableism.  
+Human review remains essential to confirm accuracy, interpret nuance, and ensure that suggestions align with the social model of disability.
+
+# Ethics Note
+AI systems can misinterpret nuance, cultural context, or indirect phrasing.  
+Because the model occasionally missed subtle ableist language during testing, relying solely on automated detection could lead to incomplete or misleading feedback.  
+
+If the model incorrectly flags or fails to flag content, educators may misunderstand the issue or lose trust in accessibility tools.  
+To mitigate this, the app provides explanations for each flag but uers are encouraged to apply **human judgment** before accepting suggestions.  
+Human‑in‑the‑loop review is essential to ensure fairness, respect, and accountability in accessibility analysis.
+
 ## Prerequisites
 
 To run this application locally, you need:
