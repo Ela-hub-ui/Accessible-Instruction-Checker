@@ -10,11 +10,11 @@ This project was created as part of a University course and serves academic and 
 
 # Key features
 
-   *Detects ableist language, deficit framing, and exclusionary wording.
-   *Flags ableist lanaguge, accessibility barriers in instructions, assignments, and course materials providing explanations and violations.
-   *Provides inclusive rewrites aligned with: ADA Title II (2026 updates), Universal Design for Learning (UDL) Guidelines, and WCAG 2.2 AA.
-   *Offers improved alternatives that promote access, autonomy, and equity.
-   *Simple frontend UI + Node.js backend proxy for secure API calls
+Detects ableist language, deficit framing, and exclusionary wording.
+Flags ableist lanaguge, accessibility barriers in instructions, assignments, and course materials providing explanations and violations.
+Provides inclusive rewrites aligned with: ADA Title II (2026 updates), Universal Design for Learning (UDL) Guidelines, and WCAG 2.2 AA.
+Offers improved alternatives that promote access, autonomy, and equity.
+Simple frontend UI + Node.js backend proxy for secure API calls
 
 # How it works
 
