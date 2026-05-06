@@ -26,11 +26,11 @@ The frontend displays the results
 
 # Accessibility frameworks used
 
-ADA Title II (2026) — nondiscrimination in public education
+ADA Title II (2026): nondiscrimination in public education
 
-UDL Guidelines — multiple means of engagement, representation, and expression
+UDL Guidelines: multiple means of engagement, representation, and expression
 
-WCAG 2.2 AA — perceivable, operable, understandable, robust content
+WCAG 2.2 AA: perceivable, operable, understandable, robust content
 
 # Evaluation Results
 The Accessible Instruction Checker was evaluated using a set of personally written instructional examples containing both explicit and subtle ableist phrasing.  
