@@ -6,7 +6,7 @@ An AI‑powered tool that analyzes instructional materials for ableist language,
 
 The Accessible Instruction Checker helps Educators and Instructional designers identify language that may unintentionally hurt, exclude or marginalize learners with disabilities. It applies the social model of disability, focusing on barriers in the environment and materials.
 
-This project was created as part of a University course and serves academic and prototyping purposes.
+This project was created as part of a University course and serves academic and prototyping purposes. It is anchored in **Week 13: Ableism in AI**, with additional influence from **Week 14: Accessible AI in Education**.
 
 # Key features
 
