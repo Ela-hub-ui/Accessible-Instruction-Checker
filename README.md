@@ -44,9 +44,6 @@ Findings:
 - Contrast error: 1 (fixed)
 - WCAG AA, AAA: pass
 
-# Limitation
-This app currently 
-
 # Ethics Note
 AI systems can misinterpret nuance, cultural context, or indirect phrasing.  
 Because the model occasionally missed subtle ableist language during testing, relying solely on automated detection could lead to incomplete or misleading feedback.  
