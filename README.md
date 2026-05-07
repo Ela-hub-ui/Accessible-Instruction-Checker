@@ -32,9 +32,20 @@ UDL Guidelines: multiple means of engagement, representation, and expression
 
 WCAG 2.2 AA: perceivable, operable, understandable, robust content
 
-# User Evaluation Results
+# Personal Evaluation Results
 The Accessible Instruction Checker was persoanlly evaluated using a set of written instructional examples containing both explicit and subtle ableist phrasing.  
 The model correctly flagged the majority of ableist phrases, performing at approximately **70% accuracy** on the test samples.  It **missed some subtle and context‑dependent phrases**, especially those that rely on tone, implication, or indirect framing.  These results reinforce that **AI cannot be relied on as the sole evaluator** of accessibility or ableism.  Human review remains essential to confirm accuracy, interpret nuance, and ensure that suggestions align with the social model of disability.
+
+# Accessibility Audit Summary
+Tool Used: WAVE
+Date: May 7, 2026
+Findings:
+- Errors: none
+- Contrast error: 1 (fixed)
+- WCAG AA, AAA: pass
+
+# Limitation
+This app currently 
 
 # Ethics Note
 AI systems can misinterpret nuance, cultural context, or indirect phrasing.  
