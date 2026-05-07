@@ -44,6 +44,9 @@ Findings:
 - Contrast error: 1 (fixed)
 - WCAG AA, AAA: pass
 
+# AI Tool Disclosure
+This project used Google’s Vertex AI (Gemini) through the Google Cloud Console to assist with testing prompts, troubleshooting model behavior, and refining the app’s text‑analysis logic. All design decisions originated from the developer, and accessibility evaluation was completed and verified by the developer.
+
 # Ethics Note
 AI systems can misinterpret nuance, cultural context, or indirect phrasing.  
 Because the model occasionally missed subtle ableist language during testing, relying solely on automated detection could lead to incomplete or misleading feedback.  
