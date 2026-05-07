@@ -14,14 +14,15 @@ const App: React.FC = () => {
   const [error, setError] = useState<string | null>(null);
 
   const handleAnalyze = useCallback(async () => {
-    if (!inputText.trim()) return;
+    const currentText = inputText.trim();
+    if (!currentText) return;
 
     setIsLoading(true);
     setError(null);
     setResult(null);
 
     try {
-      const analysis = await analyzeInstructionalText(inputText);
+      const analysis = await analyzeInstructionalText(currentText);
       setResult(analysis);
     } catch (err) {
       setError(err instanceof Error ? err.message : 'An unexpected error occurred.');
